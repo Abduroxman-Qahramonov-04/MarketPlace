@@ -1,6 +1,6 @@
 package com.example.market_place.controller;
 
-import com.example.market_place.Jpa.UserRepository;
+import com.example.market_place.jpa.UserRepository;
 import com.example.market_place.exception.EmailAlreadyExists;
 import com.example.market_place.exception.UserAlreadyExists;
 import com.example.market_place.exception.UserNotFound;
@@ -14,6 +14,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.util.List;
 import java.util.Optional;
+
 
 @RestController
 public class AuthenticationController {
