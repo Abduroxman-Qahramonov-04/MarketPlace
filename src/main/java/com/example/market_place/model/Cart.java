@@ -1,4 +1,4 @@
 package com.example.market_place.model;
 
-public class Order {
+public class Cart {
 }
